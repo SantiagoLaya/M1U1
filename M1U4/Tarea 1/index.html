@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cambia fondos</title>
+	<style>
+		.cuadrado {
+
+			width: 200px;
+			height: 200px;
+			background-color: red;
+		}
+		.cuadrado1 {
+
+			width: 200px;
+			height: 200px;
+			background-color: green;
+		}
+		.cuadrado2 {
+
+			width: 200px;
+			height: 200px;
+			background-color: blue;
+		}
+
+	</style>
+</head>
+<body>
+<div class="contenedor">
+	<div class="cuadrado rojo" onclick="cambiarfondo('red')"></div>
+	<div class="cuadrado celeste" onclick="cambiarfondo('aqua')"></div>
+	<div class='cuadrado gris' onclick="cambiarfondo('gray')"></div>
+</div>	
+  <style type="text/css">
+  	
+  	.contenedor{	
+  		display: flex;
+  	}
+
+  	.cuadrado{	
+  		width: 300px;
+  		height: 300px;
+  	}
+  	.rojo {
+  		background-color: red;
+  	}
+
+  	.celeste {
+  		background-color: aqua;
+  	}
+
+  	.gris {
+  		background-color: gray;
+  	}
+  </style>
+	<script>
+	
+		function cambiarfondo(color) {
+			document.querySelector('body').style.background = color;
+		}
+</script>
+</body>
+</html>
