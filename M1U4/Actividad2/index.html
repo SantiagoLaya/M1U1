@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Caracteres</title>
+</head>
+<body>
+	<textarea id="texto" cols="30" rows="10"></textarea>
+	<div>Caracteres ingresados: <span id="contar"></span></div>
+	<style type="text/css">
+		textarea {
+
+			background-color: aqua;
+			color: blue;
+			font-family: cursive;
+		}
+
+	</style>
+
+	<script>
+		var	texto = document.getElementById("texto");
+		var	contar = document.getElementById("contar");
+
+		texto.addEventListener("keyup", function(){
+			contar.innerText = texto.value.length;
+		})
+</script>
+</body>
+</html>
