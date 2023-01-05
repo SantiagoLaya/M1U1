@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Coffee Design</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cardo&family=Oswald&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/CSS.css">
+</head>
+<body>
+
+<div class="fondo">
+	<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    	<a class="navbar-brand" href="#">
+      		<img src="img/Logo.png" alt="" width="50" height="50">
+    	</a>
+    <a class="navbar-brand" href="#">Coffee Design</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Diseños
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Logos</a></li>
+            <li><a class="dropdown-item" href="#">Posts</a></li>
+            <li><a class="dropdown-item" href="#">Banners</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid">
+		<div id="home">
+			<img src="img/Coffeebanner1.png" class="img-fluid">
+		</div>
+
+
+<!--Nosotros-->
+ <div class="row my-3">
+ 	<div id="Nosotros" class="col-md-5 offset-md-2 py-3">
+ 		<h1 class="PresentacionTitulo">Nosotros</h1>
+ 		<p class="Presentacion">
+ 			<strong>Bienvenid@ a Coffee Design</strong>...<br>
+ 			Mi nombre es Santiago Laya y soy diseñador digital,<br>
+ 			actualmente estudiante de la UDE (Universidad del Este BS. AS.)<br>
+ 			realizamos diseños de logos hasta páginas web personalizadas,<br>
+ 			si quieres ver algunos de nuestros diseños haz <a href="">Click Aquí</a>.<br>
+ 		</p>
+ 	</div>
+
+<div class="col-md-3 my-3">	
+	<div class="rounded py-5 Opiniones">
+		<h2 class="text-center">Opiniones</h2>
+		<div id="carouselExampleIndicators" class=" carousel slide" data-bs-ride="true">
+			<div class="carousel-linner">
+				<div class="carousel-item active">
+					<div class="comentario">
+						<h5>"Quedó buenísimo el logo"</h5>
+						<p>María, lópez.</p>
+					</div>
+				</div>
+				<div class="carousel-item active">
+					<div class="comentario">
+						<h5>"Gracias por el diseño!"</h5>
+						<p>Gabriel, Díaz.</p>
+					</div>
+				</div>
+				<div class="carousel-item active">
+					<div class="comentario">
+						<h5>"Muy buen servicio, 5 estrellas!"</h5>
+						<p>Isac, Fernandez.</p>
+					</div>
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Anterior</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Siguiente</span>
+			</button>
+		</div>
+	</div> <!--Cierre de Opiniones-->
+</div> <!--Cierre de div con id Nosotros-->
+</div> <!--Cierre de div con .fondo-->
+
+
+
+
+
+
+
+
+
+		<footer>
+			<p class="text-center">Diseñado por Santiago Laya</p>
+		</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
+		integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
+		crossorigin="anonymous">		
+</script>
+</body>
+</html>
