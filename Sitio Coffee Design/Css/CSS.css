@@ -3,8 +3,13 @@ font-family: 'Cardo', serif;
 font-family: 'Oswald', sans-serif;
 */
 
+/*Inicio de estilo general*/
 .navbar {
 	background-color: #CAA25E;
+	color: #89543D;
+}
+
+nav {
 	color: #89543D;
 }
 
@@ -22,11 +27,23 @@ footer {
 	background-color: #CAA25E;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
+.scroll_section {
+	scroll-margin-top: 76px;
+}
+
+/*Cierre de estilo general*/
+
+/*Inicio de nosotros*/
+
 .PresentacionTitulo {
 	margin: 0;
 	padding: 0;
 	font-family: 'Oswald', sans-serif;
-	font-size: 5rem;
+	font-size: 4rem;
 	color: #302928;
 	display: block
 }
@@ -40,16 +57,22 @@ footer {
 	display: block
 }
 
-.Opiniones {
-	color: #89543D;
-	text-align: center;
-	padding-bottom: 11rem !important;
+
+.opiniones {
+	color: #302928;
+	padding-bottom: 3rem !important;
 }
 
 .carousel-item{
 	text-align: center;
-	padding: 4px 4px;
+	padding: 60px 20px;
 }
+
+.carousel-caption {
+	color: #302928;
+	margin: auto;
+}
+
 
 .col-md-3 {
 	background-color: #E1BFA2;
@@ -62,16 +85,54 @@ footer {
 	border: 3px solid #89543d;
 }
 
-h5 {
+/*Cierre de nosotros*/
+
+/*Inicio de contacto*/
+
+.contacto {
+	font-family: 'Oswald', sans-serif;
+	font-size: 4rem;
 	color: #302928;
 }
 
-p {
-	color: #302928;
-	padding-bottom: 70px;
+.form-control {
+	background-color: #CAA25E; 
+	color: black;
+	font-family: 'Cardo', serif;
+	border-color: #302928;
+	border-width:  2px;
 }
 
+.btn {
+	font-family: 'Cardo', serif;
+	background-color: #CAA25E;
+	color: black;
+	border-color: #302928;
+	border-width:  2px;
+}
 
-nav {
-	color: #89543D;
+.card {
+	width: 20rem; 
+	margin: auto; 
+	background: none; 
+	border: none;
+}
+
+.card-title {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.4rem;
+}
+
+.card-subtitle {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5rem;
+}
+
+.card-body {
+	font-family: 'Cardo', serif;
+	font-size: 1.35rem;
+}
+
+.logowhatsapp {
+	width: 36px;
 }
