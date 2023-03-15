@@ -133,58 +133,42 @@
 
 
 <div class="row py-4">
-  <div class="col-md-4 offset-md-2">
-    <div class="col">
-      <div class="card" style="width: 18rem;">
-        <img src="images/logo.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Logo personalizado</h5>
-          <p class="card-text">Pedí el tuyo, lo hacemos en menos de 24hs luego de tu compra, para más información presiona el botón de abajo.</p>
-          <a href="#" class="btn btn-primary">Contratación</a>
-        </div>
-      </div>
-    </div>
-  </div>
 
+  {{#each novedades}}
+  <div id="diseñoss" class="diseños col-md-4 offset-md-2">
     <div class="col">
-      <div class="card" style="width: 18rem;">
+      <div class="" style="width: 18rem;">
         <img src="images/logo.png" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Logo personalizado</h5>
-          <p class="card-text">Pedí el tuyo, lo hacemos en menos de 24hs luego de tu compra, para más información presiona el botón de abajo.</p>
-          <a href="#" class="btn btn-primary">Contratación</a>
+          <h5 class="card-title">{{titulo}}</h5>
+          <a href="#" data-bs-toggle="modal" data-bs-target="#modal{{id}}" class="btnmasinfo btn btn-outline-primary">¡Más Info!</a>
         </div>
       </div>
     </div>
   </div>
+  {{/each}}
 
-<div class="row py-4">
-  <div class="col-md-4 offset-md-2">
-    <div class="col">
-      <div class="card" style="width: 18rem;">
-        <img src="images/logo.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Logo personalizado</h5>
-          <p class="card-text">Pedí el tuyo, lo hacemos en menos de 24hs luego de tu compra, para más información presiona el botón de abajo.</p>
-          <a href="#" class="btn btn-primary">Contratación</a>
+  {{#each novedades}}
+  <div class="modal fade" id="modal{{id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title">{{titulo}}</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-      </div>
-    </div>
-  </div>
+        <div class="modal-body">
+          <h4>{{subtitulo}}</h4>
 
-    <div class="col">
-      <div class="card" style="width: 18rem;">
-        <img src="images/logo.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Logo personalizado</h5>
-          <p class="card-text">Pedí el tuyo, lo hacemos en menos de 24hs luego de tu compra, para más información presiona el botón de abajo.</p>
-          <a href="#" class="btn btn-primary">Contratación</a>
+          <p>{{cuerpo}}</p>
         </div>
+
       </div>
-    </div>
+    </div> 
   </div>
+    {{/each}}
+    <!-- Fin Modal -->
+
 </div>
-
 <!--Cierre de Diseños-->
 </div> <!--Cierre de container fluid-->
 </div> <!--Cierre de fondo-->

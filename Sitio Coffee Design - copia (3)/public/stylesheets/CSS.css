@@ -136,3 +136,62 @@ html {
 .logowhatsapp {
 	width: 36px;
 }
+
+
+/* zona /admin */
+.asd {
+	font-family: 'Cardo', serif;
+	background-color: #E1BFA2;
+	color: black;
+	border-color: #302928;
+	border-width:  2px;
+}
+
+.tituloadmin {
+	padding: 12px;
+}
+
+.tablecolor {
+	background-color: #E1BFA2;
+}
+
+span {
+	font-family: 'Oswald', sans-serif;
+}
+
+th {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.20rem;
+}
+
+td {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.20rem;
+}
+
+.btnlogin{
+	font-family: 'Cardo', serif;
+	background-color: #CAA25E;
+	color: black;
+	border-color: #302928;
+	border-width:  2px;
+	margin-top: 10px;
+}
+
+.alineacionderecha {
+	font-family: 'Oswald', sans-serif;
+	text-align: right;
+}
+
+.diseños {
+	margin-left: auto;
+}
+
+.btnmasinfo {
+	font-family: 'Cardo', serif;
+	background-color: #CAA25E;
+	color: black;
+	border-color: #302928;
+	border-width:  2px;
+	margin-top: 10px;
+}
