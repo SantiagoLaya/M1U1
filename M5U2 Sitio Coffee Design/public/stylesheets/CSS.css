@@ -1,0 +1,226 @@
+/*
+font-family: 'Cardo', serif;
+font-family: 'Oswald', sans-serif;
+*/
+
+/*Inicio de estilo general*/
+.navbar {
+	background-color: #CAA25E;
+	color: #89543D;
+}
+
+nav {
+	color: #89543D;
+}
+
+footer {
+	background-color: #CAA25E; 
+	color: #89543D;
+}
+
+.text-center{
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.fondo {
+	background-color: #CAA25E;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.scroll_section {
+	scroll-margin-top: 76px;
+}
+
+/*Cierre de estilo general*/
+
+/*Inicio de nosotros*/
+
+.PresentacionTitulo {
+	margin: 0;
+	padding: 0;
+	font-family: 'Oswald', sans-serif;
+	font-size: 4rem;
+	color: #302928;
+	display: block
+}
+
+.Presentacion {
+	margin: 0;
+	padding: 0;
+	font-family: 'Cardo', serif;
+	font-size: 1.35rem;
+	color: #302928;
+	display: block
+}
+
+
+.opiniones {
+	color: #302928;
+	padding-bottom: 3rem !important;
+}
+
+.carousel-item{
+	text-align: center;
+	padding: 60px 20px;
+}
+
+.carousel-caption {
+	color: #302928;
+	margin: auto;
+}
+
+
+.col-md-3 {
+	background-color: #E1BFA2;
+	box-shadow: 4px 10px 10px -5px rgba(137,84,61,0.62);
+	-webkit-box-shadow: 4px 10px 10px -5px rgba(137,84,61,0.62);
+	-moz-box-shadow: 4px 10px 10px -5px rgba(137,84,61,0.62);
+	border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	border: 3px solid #89543d;
+}
+
+/*Cierre de nosotros*/
+
+/*Inicio de contacto*/
+
+.contacto {
+	font-family: 'Oswald', sans-serif;
+	font-size: 4rem;
+	color: #302928;
+}
+
+.form-control {
+	background-color: #CAA25E; 
+	color: black;
+	font-family: 'Cardo', serif;
+	border-color: #302928;
+	border-width:  2px;
+}
+
+.btn {
+	font-family: 'Cardo', serif;
+	background-color: #CAA25E;
+	color: black;
+	border-color: #302928;
+	border-width:  2px;
+}
+
+.card {
+	width: 20rem; 
+	margin: auto; 
+	background: none; 
+	border: none;
+}
+
+.card-title {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.4rem;
+}
+
+.card-subtitle {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5rem;
+}
+
+.card-body {
+	font-family: 'Cardo', serif;
+	font-size: 1.35rem;
+}
+
+.logowhatsapp {
+	width: 36px;
+}
+
+
+/* zona /admin */
+.asd {
+	font-family: 'Cardo', serif;
+	background-color: #E1BFA2;
+	color: black;
+	border-color: #302928;
+	border-width:  2px;
+}
+
+.tituloadmin {
+	padding: 12px;
+}
+
+.tablecolor {
+	background-color: #E1BFA2;
+}
+
+span {
+	font-family: 'Oswald', sans-serif;
+}
+
+th {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.20rem;
+}
+
+td {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.20rem;
+}
+
+.btnlogin{
+	font-family: 'Cardo', serif;
+	background-color: #CAA25E;
+	color: black;
+	border-color: #302928;
+	border-width:  2px;
+	margin-top: 10px;
+}
+
+.alineacionderecha {
+	font-family: 'Oswald', sans-serif;
+	text-align: right;
+}
+
+.diseñossscenter{
+	margin: auto;
+	padding-bottom: 15px; 
+}
+
+.diseñosss {
+	margin-bottom: auto;
+	margin-left: auto;
+}
+
+.diseños {
+	text-align: center;
+	margin: auto;
+
+}
+
+.btnmasinfo {
+	font-family: 'Cardo', serif;
+	background-color: #CAA25E;
+	color: black;
+	border-color: #302928;
+	border-width:  2px;
+	margin-top: 10px;
+}
+
+
+/* zona /admin/novedades/agregar */
+
+.h4agregar {
+	text-align: center;
+}
+
+.formagregar {
+	padding-bottom: 10px;
+}
+
+.nullagregar {
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	color: #FB6565;
+}
