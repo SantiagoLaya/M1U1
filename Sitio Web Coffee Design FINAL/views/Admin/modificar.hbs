@@ -1,0 +1,36 @@
+<div class='container' style='margin: 100px auto'>
+	<div class="row">
+		<div class="col-6 offset-3">
+			<h4 class="h4agregar">Modificar el diseño</h4>
+			 <form action="/admin/novedades/modificar" method="post" enctype="multipart/form-data">
+				<input type="hidden" value="{{novedad.id}}" name="id">
+				<div class="formagregar form-group">
+					<label for="">Titulo</label>
+					<input type="text" class="form-control placeholder-a" name="titulo" value="{{novedad.titulo}}">
+				</div>
+				<div class="formagregar form-group">
+					<label for="">Subtitulo</label>
+					<input type="text" class="form-control placeholder-a" name="subtitulo" value="{{novedad.subtitulo}}">
+				</div>
+				<div class="formagregar form-group">
+					<label for="">Cuerpo</label>
+					<textarea name="cuerpo" class="form-control placeholder-a textareacuerpo">{{novedad.cuerpo}}</textarea>
+				</div>
+				<div class=" form-group">
+				 <p class="formagregardiseño">
+				 	<label>Diseño: <input type="file" name="imagen" id="imagen" /><label>
+				 </p>
+				 <p class="formagregardiseño">
+				 	<label><input type="checkbox" name="img_delete" id="img_delete" value="1">
+				 		¿Eliminar diseño actual?
+				 	<input type="hidden" name="img_original" value="{{novedad.img_id}}">
+				 </p>
+				 </div>
+				<button type="submit" class="button">Modificar</button>
+			 </form>
+			 {{#if error}}
+			 <p class="nullagregar">{{message}}</p>
+			 {{/if}}
+		</div>
+	</div>
+</div>

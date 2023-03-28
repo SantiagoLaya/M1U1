@@ -1,0 +1,27 @@
+<div class="fondo">
+<div class='container' style='margin: 100px auto'>
+	<div class="row">
+		<div class="col-6 offset-3">
+			<h4 class="h4agregar">Agregar un nuevo diseño</h4>
+			<form action="/admin/novedades/agregar" method="post" enctype="multipart/form-data">
+				<div class="formagregar form-group">
+					<input type="text" class="form-control placeholder-a" placeholder="Titulo" name="titulo">
+				</div>
+				<div class="formagregar form-group">
+					<textarea type="text" class="form-control placeholder-a textareacuerpo" placeholder="Subtitulo" name="subtitulo"></textarea>
+				</div>
+				<div class="formagregar form-group">
+					<textarea type="text" class="form-control placeholder-a textareacuerpo" placeholder="Cuerpo" name="cuerpo"></textarea>
+				</div>
+				<div class="formagregar form-group">
+					<label>Imagen: <input type="file" class="form-control placeholder-a" name="imagen" id="imagen" /></label>	
+				</div>
+				<button type="submit" class="button">Subir</button>
+			</form>
+			{{#if error}}
+				<p class="nullagregar">{{message}}</p>
+			{{/if}}
+		</div>
+	</div>
+</div>
+</div>
